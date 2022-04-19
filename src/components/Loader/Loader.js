@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid, Container } from '@mui/material';
-import Spinner from '../assets/Spinner';
+import Spinner from '../../assets/Spinner';
 
 const Loader = () => {
     return (

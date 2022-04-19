@@ -1,10 +1,10 @@
-import { useContext } from "react";
+import React, { useContext } from "react";
 import { BrowserRouter } from "react-router-dom";
-import AppRouter from "./components/AppRouter";
-import Navbar from "./components/Navbar";
+import AppRouter from "./components/AppRouter/AppRouter";
+import Navbar from "./components/Navbar/Navbar";
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { Context } from './index';
-import Loader from "./components/Loader";
+import Loader from "./components/Loader/Loader";
 
 const App = () => {
   const {auth} = useContext(Context)

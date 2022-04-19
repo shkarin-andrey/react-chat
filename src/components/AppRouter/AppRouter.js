@@ -1,10 +1,10 @@
 import React, {useContext} from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom'
-import { privateRoutes, publicRoutes } from '../routes/routes';
-import { CHAT_ROUTE,LOGIN_ROUTE } from '../utils/consts';
+import { privateRoutes, publicRoutes } from '../../routes/routes';
+import { CHAT_ROUTE,LOGIN_ROUTE } from '../../utils/consts';
 
 import {useAuthState} from 'react-firebase-hooks/auth'
-import { Context } from './../index';
+import { Context } from '../../index';
 
 const AppRouter = () => {
     const {auth} = useContext(Context)
